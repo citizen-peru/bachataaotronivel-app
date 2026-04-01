@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Festival 2026</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    body { font-family: Arial; margin: 0; padding: 20px; background: #111; color: white; }
+    h1 { text-align: center; }
+    .card { background: #222; padding: 15px; margin: 10px 0; border-radius: 10px; }
+    a { color: #4da6ff; }
+  </style>
+</head>
+
+<body>
+
+<h1>🎵 Festival 2026</h1>
+
+<div class="card">
+  <h2>📍 Localisation</h2>
+  <p>Parc Central</p>
+  <a href="https://maps.google.com?q=Parc+Central" target="_blank">
+    Ouvrir dans Maps
+  </a>
+</div>
+
+<div class="card">
+  <h2>🎤 Programme</h2>
+  <p>18:00 - DJ Sunset</p>
+  <p>19:30 - The Rockers</p>
+  <p>21:00 - Electro Vibes</p>
+</div>
+
+<div class="card">
+  <h2>🚗 Accès</h2>
+  <p>Parking gratuit</p>
+  <p>Navettes toutes les 15 min</p>
+</div>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+
+</body>
+</html>
